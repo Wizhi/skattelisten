@@ -88,4 +88,6 @@ func main() {
 
 		json.NewEncoder(w).Encode(&comp)
 	}
+
+	w.Flush()
 }
